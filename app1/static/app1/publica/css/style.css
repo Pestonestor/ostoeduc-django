@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #a5f27c;
+    box-sizing: border-box;
+} 
+body{
+    margin: 15px;
+    font-family: inherit, 'Courier New', Courier;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0;
+}
+h1{
+    color: #4c7039;
+    background-color: #75f032;
+    font-size: 75px;
+    font-family: ContBiología;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+h2{
+    color: #4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+}
+h3{
+    color: #4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+} 
+/*
+ h4{color:#4c7039; 
+     background-color: #75f032; 
+     font-family: inherit; 
+     text-align: left; 
+     font-size: 20px; 
+ } 
+ h5{color:#4c7039; 
+     background-color: #75f032; 
+     font-family: inherit; 
+     text-align: left; 
+ } 
+ h6{color:#4c7039; 
+     background-color: #75f032; 
+     font-family: inherit; 
+     text-align: left; 
+     padding: auto; 
+     border-radius: 2px; 
+ }*/
+@font-face {
+    font-family: ContBiología;
+    src: url(../assets/Fuentes/ContBiology.ttf);
+}
+p{
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+form{
+    border: solid 25px coral;
+    padding: 15px;
+    margin: 5px;
+    display: grid;
+    font-size: larger;
+    background-color: red;
+}
+.explicativo{
+    margin: 5px;
+    padding: 10px;
+    background-color: greenyellow;
+    overflow: auto;
+}
+.introducción{
+    border-style: double;
+    padding: 5px;
+    align-content: center;
+}
+.cajasección{
+    border-style: double;
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    max-width: 1000px;
+    overflow: auto;
+}
+.figure{
+    width: 100%;
+}
+.botonMenu{
+    margin: 0 auto;
+    display: block;
+    width: 40px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 7px;
+    background: rgb(89, 226, 123);
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+.botonMenu span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: white;
+    margin-top: 7px;
+}
+label{
+    cursor: pointer;
+} 
+/*
+ #menu-toggle{ 
+    display: none; 
+ } 
+ #trickMenu{ 
+     display: none; 
+     text-align: center; 
+     background: white; 
+     padding: 10px 0; 
+ } 
+ #trickMenu li a{ 
+     display: block; 
+     padding: 10px 0; 
+     color: black; 
+ } 
+ #menu-toggle:checked + #trickMenu{ 
+     display: block; 
+ } 
+ @media screen and (max-width:1920px) { 
+     .cajasección { 
+                  
+     } 
+ }  
+ @media screen and (max-width:1280px) { 
+     .cajasección { 
+  
+     } 
+ }  
+  
+ @media screen and (max-width:800px) { 
+     .cajasección { 
+  
+     }   
+ }  
+  
+ @media screen and (max-width:480px) { 
+          
+ }
+*/
+.cajasección div p{
+    font-size: 15px;
+}
+a{
+    font-size: 15px;
+} 
+/*
+ a:hover{ 
+     color: #377018; 
+     font-size: 15px; 
+ } 
+ a:active{ 
+     color: #5cbd28; 
+     font-size: 15px; 
+ } 
+ a:visited{ 
+     color:#794c09; 
+     font-size: 15px; 
+ } 
+ */
+footer, footer .pie{
+    align-items: center;
+    text-align: center;
+}
+#parrafoPie{
+    font-size: 40px;
+    font-weight: bold;
+}
+#container{
+    background-color: rgb(142, 235, 154);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-items: center;
+    align-items: center;
+}
+.grid-item{
+    border: 2px solidd black;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+.grid-item img{
+    width: 100%;
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.grid-item h3{
+    background-color: aquamarine;
+    }
